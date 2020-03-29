@@ -1,7 +1,7 @@
 const clockContainer = document.querySelector(".js-clock");
 const clock=clockContainer.querySelector("h1");
 
-function getTime(){
+function getTime(){ // 시간 실시간으로 보여주기
     const time = new Date();
     const hour = time.getHours();
     const minute = time.getMinutes();
